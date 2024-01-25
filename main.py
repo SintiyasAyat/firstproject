@@ -153,7 +153,7 @@ print(new)
 new4 = [1,2,2,3,4,]
 new3.extend(new4)
 print(new3)
-
+#save option sikhlam
 
 
 
