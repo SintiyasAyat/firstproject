@@ -1,0 +1,132 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Hello World\")\r\n# variables\r\nname = \"Sintiyas Ayat\"\r\nprint(name)\r\na = 12\r\nb = 8\r\nc = \"20 is that all you got\"\r\nprint(a + b)\r\n#how to find bata type print(type(c)) kono bata kon dorone ta der korar jonno\r\nprint(type(c))\r\nprint(c)\r\ng=\"jkg9\"\r\nprint(type(g))\r\ngg=797j\r\nprint(gg)\r\nprint(name+ \" \" + c)\r\n#Booltype Bata true folse ber korar jonno ues hoy\r\nx = 8\r\ny = 10\r\nprint(y==x)\r\nprint(y>x)\r\nprint(type(y>x))\r\n#str format type\r\nname2 = \"Anisa\"\r\nname3= \"Ayat\"\r\nroll = 9\r\nroll2 = 8\r\nprint(f\"{name3} and {name2} how mush apple we have and my roll is {roll}\")\r\n#byte type bata ai gola image jonno ues hoy kintu byte change kora jay nh\r\nbc = [1,2,3,4,5]\r\nbcc = bytes(bc)\r\nprint(bcc[1])\r\n#bytearry type  bata ai gola image jonno ues hoy\r\nacc = [9,2,3,4,5,6]\r\nac = bytearray(acc)\r\nac[0] = 90\r\nprint(ac[0])\r\n#none type bata\r\nn = None\r\nprint(n)\r\nprint(type(n))\r\n#list type bata\r\nli = ['son of masud','ayat','lisan']\r\nprint(type(li))\r\nprint(li)\r\n#tuple type bata immuture type\r\ntup = (0,1,3,4,5,6,7,8,9,)\r\nprint(type(tup))\r\nprint(tup)\r\n#range type bata\r\nran = range(1,9)\r\nprint(type(ran))\r\nprint(ran)\r\nfor i in ran:\r\n    print(i)\r\n#Arithmetic Oparetors\r\n# + = Addition\r\n# - = Suptraction\r\n# * = Multiplication\r\n# / = Division\r\n# % = Modulus\r\n#** = Exponentiation\r\n#// = Floor Division\r\nab = 20\r\nba = 10\r\nbc = 3\r\nprint(ab + ba)#Addition\r\nprint(ab - ba)#Suptraction\r\nprint(ab * ba)#multiplition\r\nprint(ab /bc)#Division\r\nprint(ab % bc)#modulus\r\nprint(ab **bc)#exponentiation\r\nprint(ab//bc)#Floor Division\r\n#assignment operator sob operator ei methor diye us kora jabe\r\nass = 10\r\nass//=3\r\nprint(ass)\r\n# sapping variables\r\nA = 50\r\nB = 60\r\nA,B = B,A\r\nprint(A)\r\n#uesr input neya\r\nx = input('please inter you name :')\r\nprint(x)\r\n#type casting diye ak type ar bata onno type ropantor korte pari\r\nstrtype = '13'\r\nprint(type(strtype))\r\nprint(int(strtype))\r\nprint(type(int(strtype)))\r\n#list change\r\nli[0] = \"hasan\"\r\nprint(li[0])\r\n#list ar sese bata kibabe add korbo\r\nli.append(10)\r\nprint(li)\r\n#list je kono jaygay kibabe bata add korbo\r\nli.insert(3,'job')\r\nprint(li)\r\n#list ar je kono index re dehkte chai le\r\nprint(li[0])\r\n#.romove diye je kono kisu list ar same jinis type kore oi tah romove\r\nli.remove('hasan')\r\n#list kono kisu index call kore remove\r\nli.pop(0)\r\nprint(li)\r\n#list ar sob kisu remove korte kaje ase\r\nli.clear()\r\nprint(li)\r\nlis = ['hasan', 'ayat', 'lisan','job', 10]\r\n#for new  variables in ager variables : diya siriyal by list print kora jay\r\nfor liss in lis:\r\n    print(liss)\r\n#for in loop ar in sese range(len()) loop diya list ar index koto gola jana jay\r\nfor lia in range(len(lis)):\r\n    print(lia)\r\n#while loop\r\nxx = 0\r\nwhile xx < len(lis):\r\n    print(lis[xx])\r\n    xx = xx + 1\r\n\r\nxx = 0\r\nwhile xx < 3:\r\n    print(lis[xx])\r\n    xx = xx + 1\r\n# Python List Comprehension for loop ues kore comprehension\r\nnum = [1,2,3,4,5]\r\nfor f in num:\r\n    print(f*2)\r\n# Python List Comprehension list maje rakhei comprehension kora\r\nnum2 = [1,2,3,4,5]\r\ngh = [hg + 2 for hg in num2]\r\nprint(gh)\r\n# soft list aelomelo thak serial by anbo ki vabe\r\nso = [9,8,654,32,46,7,89,1,2,3]\r\nso.sort()\r\nprint(so)\r\n# gosano list ke ki vabe  aelomelo korbo\r\nso.sort(reverse=True)\r\nprint(so)\r\n#list copy\r\nlish = li.copy()\r\nprint(lish)\r\n#join list kibabe korbo\r\nnew = ['Mahmudul',\"Hasan\",\"Sintiyas\",'Ayat',]\r\nnew2 = [1,2,3,4,5]\r\nnew3 = new2 + new\r\nprint(new3)\r\n#join list bainamik vabe kibabe korbo\r\nnew.extend(new2)\r\nprint(new)\r\nnew4 = [1,2,2,3,4,]\r\nnew3.extend(new4)\r\nprint(new3)\r\n#save option sikhlam\r\nt = (1,2,3,4,5)\r\nprint(type(t))\r\nprint(t)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 3f2285ac334fc81891aa30ce3c5ffb86f3f5cd67)
++++ b/main.py	(date 1708686971888)
+@@ -153,10 +153,7 @@
+ new4 = [1,2,2,3,4,]
+ new3.extend(new4)
+ print(new3)
+-#save option sikhlam
+-t = (1,2,3,4,5)
+-print(type(t))
+-print(t)
++
+ 
+ 
+ 
+Index: Revision.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"Hello World\")\r\na = 10\r\nb = 3\r\nc = \"Sintiyas\"\r\nprint(f\"My Name is {c} & My class roll is {a//b} \")\r\nd = [1,2,3,4,5]\r\ndd = bytes(d)\r\nprint(type(dd))\r\ne = [9,2,3,4,5]\r\nee = bytearray(e)\r\nprint(type(ee))\r\nprint(ee)\r\nee[0]=1\r\nprint(ee)\r\nprint(a!=b)\r\nprint(a==b)\r\nf = [\"Sintiyas\",\"Sintiyas\",a!=b,a+b]\r\nf[0]=\"Mahmudul\"\r\nf.insert(1,\"Hasan\")\r\nf.append(\"Ayat\")\r\nf.pop(3)\r\nf.remove(a+b)\r\nprint(type(f))\r\nprint(f)\r\ng = ('Mahmudul', 'Hasan', 'Sintiyas', 'Ayat')\r\nprint(type(g))\r\nprint(g)\r\nh = range(1,11)\r\nprint(type(h))\r\nprint(h)\r\nfor i in h:\r\n    print(i)\r\nj = 0\r\nwhile j < len(f):\r\n    print(f[j])\r\n    j = j + 1\r\nj = 0\r\nwhile j < 2:\r\n    print(f[j])\r\n    j = j + 1\r\na,b=b,a\r\nprint(a)\r\nprint(b)\r\na+=b\r\nprint(a)\r\nprint(b)\r\nprint(a-3)\r\nk = [\"Hasib\",\"Abrar\",\"Lisan\",\"Hamim\"]\r\nf.extend(k)\r\nprint(f)\r\nkk = k + f\r\nprint(kk)\r\nkk.sort()\r\nprint(kk)\r\nkk.sort(reverse=True)\r\nprint(kk)\r\nn = None\r\nprint(type(n))\r\nprint(n)\r\nnew = [1,2,3,4,5]\r\ngg = [ii//2 for ii in new]\r\nprint(gg)\r\nfor iii in new:\r\n    print(iii*2)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Revision.py b/Revision.py
+--- a/Revision.py	(revision 3f2285ac334fc81891aa30ce3c5ffb86f3f5cd67)
++++ b/Revision.py	(date 1708687403270)
+@@ -1,64 +1,52 @@
+ print("Hello World")
+ a = 10
+ b = 3
+-c = "Sintiyas"
+-print(f"My Name is {c} & My class roll is {a//b} ")
++c = "Sintiyas Ayat"
++print(f"My name is {c} & My class roll is {a//b}")
+ d = [1,2,3,4,5]
+ dd = bytes(d)
+ print(type(dd))
+-e = [9,2,3,4,5]
++print(dd)
++e = [1,2,3,4,5]
+ ee = bytearray(e)
+ print(type(ee))
+ print(ee)
+-ee[0]=1
++ee[0]=6
+ print(ee)
+-print(a!=b)
+-print(a==b)
+-f = ["Sintiyas","Sintiyas",a!=b,a+b]
+-f[0]="Mahmudul"
+-f.insert(1,"Hasan")
+-f.append("Ayat")
+-f.pop(3)
+-f.remove(a+b)
++f = ("Sintiyas","Ayat",a+87,a!=b)
+ print(type(f))
+ print(f)
+-g = ('Mahmudul', 'Hasan', 'Sintiyas', 'Ayat')
++g = range(1,11)
+ print(type(g))
+ print(g)
+-h = range(1,11)
+-print(type(h))
+-print(h)
+-for i in h:
+-    print(i)
+-j = 0
+-while j < len(f):
+-    print(f[j])
+-    j = j + 1
+-j = 0
+-while j < 2:
+-    print(f[j])
+-    j = j + 1
++for h in g:
++    print(h)
++for hh in range(len(g)):
++    print(hh)
++print(range(len(g)))
++i = ["Sintiyas","j","Ayat","lisan",]
++i.insert(0,"Mahmudul")
++i.append('Ayat')
++i.remove("lisan")
++i.pop(3)
++i[2] = "Hasan"
++print(i)
++i.sort()
++print(i)
++i.sort(reverse=True)
++print(i)
++j = ["Lisan","Hamim","Abrar","Hasib"]
++jj = i + j
++print(jj)
++j.extend(i)
++print(j)
++jj.clear()
++print(jj)
++je = j.copy()
++print(je)
+ a,b=b,a
+ print(a)
+ print(b)
+-a+=b
+-print(a)
+-print(b)
+-print(a-3)
+-k = ["Hasib","Abrar","Lisan","Hamim"]
+-f.extend(k)
+-print(f)
+-kk = k + f
+-print(kk)
+-kk.sort()
+-print(kk)
+-kk.sort(reverse=True)
+-print(kk)
+-n = None
+-print(type(n))
+-print(n)
+-new = [1,2,3,4,5]
+-gg = [ii//2 for ii in new]
+-print(gg)
+-for iii in new:
+-    print(iii*2)
++print(a!=b)
++print(a<=b)
++print(type(a>=b))
