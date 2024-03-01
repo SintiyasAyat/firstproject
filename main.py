@@ -153,8 +153,15 @@ print(new)
 new4 = [1,2,2,3,4,]
 new3.extend(new4)
 print(new3)
-#add
-
+#Martrix holo dui tah alada dimensional create list modthe
+lia = [
+    [1,2,3,4,5],
+    [6,7,8,9,10],
+    11
+]
+print(lia)
+print(type(lia))
+print(lia[0][4])
 
 
 
