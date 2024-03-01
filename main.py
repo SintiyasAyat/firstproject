@@ -162,6 +162,11 @@ lia = [
 print(lia)
 print(type(lia))
 print(lia[0][4])
+#negative indexing last ar item theke -1 kore dora
+new = ['Mahmudul',"Hasan","Sintiyas",'Ayat',]
+print(new[-1])
+#Range of Indexes holo range onojaye 0 theke porer akta bariye call korte hobe jemon
+print(new[0:5])
 
 
 
