@@ -1,74 +1,70 @@
 print("Hello World")
 a = 10
 b = 3
-c = "Sintyas Ayat"
-print(f"My Name is {c} & My class roll is {a//b}")
-d = [1,2,3,4,5]
+c = "Sintiyas Ayat"
+print(f"my name is {c} & my class roll is {a//b}")
+d = (1,2,3,4,5)
 dd = bytes(d)
-print(type(d))
+print(type(dd))
 print(dd)
-e = [1,2,3,4,5]
+e = (1,2,3,4,5)
 ee = bytearray(e)
 print(type(ee))
 print(ee)
 ee[0]=6
 print(ee)
-print(a>=b)
-print(a<=b)
-print(type(a!=b))
-f = ("Sintiyas",a!=b,a+10)
+f = ("Sintiyas","Ayat",a!=b,12j)
 print(type(f))
 print(f)
-g = range(0,11)
+g = range(1,11)
 print(type(g))
-for h in g:
-    print(h)
-i = ["Sintiyas","Sintiyas","Sintiyas",a//3]
-print(type(i))
-print(i)
-i[0]="Mahmudul"
-i.insert(1,"Hasan")
-i.append("Ayat")
-i.remove(a//3)
-i.pop(2)
-print(i)
-ii = 0
-while ii < len(i):
-    print(i[ii])
-    ii = ii + 1
-i.sort()
-print(i)
-i.sort(reverse=True)
-print(i)
-for h in range(len(i)):
-    print(h)
-j = ["Lisan","Hasib","Abrar","Hamim"]
-J = i + j
-print(J)
-j.extend(i)
+print(g)
+h = ["Sintiyas","Sintiyas",a!=b,12j]
+h[0]="Mahmudul"
+h.insert(1,"Hasan")
+h.append("Ayat")
+h.remove(12j)
+h.pop(3)
+print(type(h))
+print(h)
+for i in (range(len(h))):
+    print(i)
+x = 0
+while x < len(h):
+    print(h[x])
+    x = x + 1
+j = ["Lisan","Hamim","Hasib","Abrar"]
+j.sort()
+print(j)
+j.sort(reverse=True)
+print(j)
+jj = h + j
+print(jj)
+j.extend(h)
 print(j)
 j.clear()
 print(j)
-print(a)
-print(b)
 a,b=b,a
 print(a)
 print(b)
 a+=b
 print(a)
-print(b)
-A = (1,2,3,4,5)
-for AA in A:
-    print(AA * 2)
-BB =[B + 2 for B in A]
-print(BB)
-N = None
-print(type(N))
-print(N)
-x = input("Enter your Name : ")
-print(x)
-s = "30"
-print(type(s))
-print(s)
-print(int(s))
-print(type(int(s)))
+print(type(a!=b))
+print(a>=b)
+print(a<b)
+n = None
+print(type(n))
+print(n)
+k = [['Lisan', 'Hamim', 'Hasib', 'Abrar'],
+     ['Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'],
+    'Bro'
+]
+print(k)
+print(type(k))
+print(k[0][1])
+l = (1,2,3,4,5)
+for o in l:
+    print(o*2)
+p = [oo + 10 for oo in l]
+print(p)
+w = input("Enter Your Name : ")
