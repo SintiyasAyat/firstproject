@@ -167,8 +167,13 @@ new = ['Mahmudul',"Hasan","Sintiyas",'Ayat',]
 print(new[-1])
 #Range of Indexes holo range onojaye 0 theke porer akta bariye call korte hobe jemon
 print(new[0:5])
-
-
+#Tuple update list key r code list niye change korte pari
+t = ('Mahmudul',"Hasan","Sintiyas",)
+ff = list(t)
+ff.append("Ayat")
+t = tuple(ff)
+print(type(t))
+print(t)
 
 
 
