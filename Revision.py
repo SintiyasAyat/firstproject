@@ -11,8 +11,27 @@ ee = bytearray(e)
 print(ee)
 ee[0]=6
 print(ee)
-f = ("Sintiyas",a!=b,a+b)
+f = ("Sintiyas",a!=b,a+b,"Sintiyas")
 print(f)
+C = list(f)
+C[0]="Hasan"
+C.insert(0,"Mahmudul")
+C.append("Ayat")
+C.remove(a+b)
+C.pop(2)
+f = tuple(C)
+print(type(f))
+print(f)
+A,B,*Cc = f
+print(A)
+print(B)
+print(*Cc)
+for tu in range(len(f)):
+    print(tu)
+x = 0
+while x < len(f):
+    print(f[x])
+    x += 1
 g = range(1,11)
 print(g)
 h = ["Sintiyas","Sintyas",a!=b,112j]
