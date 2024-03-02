@@ -174,8 +174,18 @@ ff.append("Ayat")
 t = tuple(ff)
 print(type(t))
 print(t)
-
-
+#Tuple unpack
+r,gg,*hg = t
+print(r)
+print(gg)
+print(*hg)
+# tuple loop
+for ii in t:
+    print(ii)
+xxx = 0
+while xxx < len(t):
+    print(t[xxx])
+    xxx += 1
 
 
 
