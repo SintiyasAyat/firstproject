@@ -2,7 +2,7 @@ print("Hello World")
 a = 10
 b = 3
 c = "Sintiyas Ayat"
-print(f"My name is {c} & My class roll is {a//b}")
+print(f"My Name is {c} & My class roll is {a//b}")
 d = (1,2,3,4,5)
 dd = bytes(d)
 print(dd)
@@ -11,70 +11,75 @@ ee = bytearray(e)
 print(ee)
 ee[0]=6
 print(ee)
-f = ("Sintiyas",a!=b,a+b,"Sintiyas")
+print(a!=b)
+print(b**a)
+f = (1,"Sintiyas",a>b,a+b)
 print(f)
-C = list(f)
-C[0]="Hasan"
-C.insert(0,"Mahmudul")
-C.append("Ayat")
-C.remove(a+b)
-C.pop(2)
-f = tuple(C)
+g = list(f)
+g[0]="Mahmudul"
+g.insert(1,"Hasan")
+g.append("Ayat")
+g.remove(a>b)
+g.pop(3)
+f = tuple(g)
 print(type(f))
 print(f)
-A,B,*Cc = f
+(A,B,*c) = f
 print(A)
 print(B)
-print(*Cc)
-for tu in range(len(f)):
-    print(tu)
+print(*c)
+h = ("Lisan","Hasib","Hamim","Abrar")
+ff = f + h
+print(ff)
+print(f*2)
+for i in range(len(ff)):
+    print(i)
 x = 0
-while x < len(f):
-    print(f[x])
+while x < len(ff):
+    print(ff[x])
     x += 1
-g = range(1,11)
-print(g)
-h = ["Sintiyas","Sintyas",a!=b,112j]
-h[0]="Mahmudul"
-h.insert(1,"Hasan")
-h.append("Ayat")
-h.remove(a!=b)
-h.pop(3)
-print(h)
-i = ["Lisan","Hamim","Hasib","Abrar"]
-ii = h + i
-print(ii)
-i.extend(h)
-print(i)
-i.sort()
-print(i)
-i.sort(reverse=True)
-print(i)
-i.clear()
-print(i)
-print(h[0])
-print(h[-1])
-print(h[0:5])
-j = [ ['Mahmudul', 'Hasan', 'Sintyas', 'Ayat'],
-    ['Lisan', 'Hamim', 'Hasib', 'Abrar'],'Bro'
-]
+print(ff.index("Abrar"))
+print(ff.count("Sintiyas"))
+j = ["Sintiyas","Sintiyas",a+b,a!=b]
 print(j)
-for k in range(len(h)):
-    print(k)
-x = 0
-while x < len(h):
-    print(h[x])
-    x = x + 1
+j[0]="Mahmudul"
+j.insert(1,"Hasan")
+j.append("Ayat")
+j.remove(a+b)
+j.pop(3)
+print(j)
+k = ["Lisan","Hasib","Hamim","Abrar"]
+jj = k + j
+print(jj)
+j.extend(k)
+print(j)
+j.sort()
+print(j)
+j.sort(reverse=True)
+print(j)
+print(j[0])
+print(j[-2])
+print(j[0:9])
+l = range(1,11)
+print(l)
 a,b=b,a
 print(a)
-print(b)
-a+=b
+a+=7
 print(a)
-k = (1,2,3,4,5)
-for ii in k:
-    print(ii*5)
-l = [oo * 2 for oo in k]
-print(l)
-n = None
+o = (1,2,3,4,5)
+for oo in o:
+    print(oo*2)
+n = [ooo * 3 for ooo in o]
 print(n)
-inp = input("Enter Your Name : ")
+p = None
+print(p)
+m = input("Enter Your Name : ")
+q = [ ['Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'],
+      ['Lisan', 'Hasib', 'hamim', 'Abrar'],
+      "bro"]
+print(type(q))
+print(q)
+print(q[0][1])
+q[2]='bros'
+q[1][2]="Hamim"
+print(q)
