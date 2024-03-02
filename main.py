@@ -186,11 +186,15 @@ xxx = 0
 while xxx < len(t):
     print(t[xxx])
     xxx += 1
-#
-
-
-
-
+#tuple joint
+tu = (1,2,3,4,4,5,6,7,8,5,6,)
+tt = t + tu
+print(tt)
+#Multiply Tuples varibles bitur diye o kora jay
+print(t*2)
+#tuple methods
+print(tu.count(4))
+print(t.index("Mahmudul"))
 
 
 
