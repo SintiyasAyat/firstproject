@@ -195,7 +195,14 @@ print(t*2)
 #tuple methods
 print(tu.count(4))
 print(t.index("Mahmudul"))
-
+#set type bata unoder unindex unchangeble
+set ={1,False,"Hasan",2,2,3,4}
+print(type(set))
+print(set)
+#set accses
+print("Hasan" in set)
+for ss in set:
+    print(ss)
 
 
 
