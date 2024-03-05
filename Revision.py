@@ -1,70 +1,102 @@
 print("Hello World")
 a = 10
 b = 3
-c = "Sintiyas"
-print(f"My name is {c} & My class roll is {a//b}")
+c = "Sintiyas Ayat"
+print(f'My Name is {c} & My class roll is {a//b}')
 d = (1,2,3,4,5)
+e = (1,2,3,4,5)
 dd = bytes(d)
 print(dd)
-e = (1,2,3,4,5)
 ee = bytearray(e)
 print(ee)
-ee[0] = 6
+ee[0]=6
 print(ee)
-f = ('Sintiyas',"Sintiyas",a!=b,a+b)
+f = ['Sintyas','Sintiyas',a!=b,a+b]
 print(f)
-F = list(f)
-F[0] = "Mahmudul"
-F.insert(1,"Hasan")
-F.append("Ayat")
-F.remove(a!=b)
-F.pop(3)
-f = tuple(F)
-print(type(f))
+f[0] = "Mahmudul"
+f.insert(1,"Hasan")
+f.append("Ayat")
+f.remove(a+b)
+f.pop(3)
 print(f)
-g = ['Sintiyas',"Sintiyas",a!=b,a+b]
-g[0]='Mahmudul'
-g.insert(1,'Hasan')
-g.append('Ayat')
-g.remove(a!=b)
-g.pop(3)
-print(g)
-g.sort()
-print(g)
-g.sort(reverse=True)
-print(g)
-h = [1,2,3,4,5]
-H = h + g
-print(H)
-g.extend(h)
-print(g)
-for i in range(len(g)):
-    print(i)
+for g in range(len(f)):
+    print(g)
 x = 0
-while x < len(g):
-    print(g[x])
-    x += 1
-j = {1,2,3,3,4,5,False,"Mahmudul"}
-print(type(j))
-print(j)
-for ii in j:
+while x < len(f):
+    print(f[x])
+    x +=1
+h = ["Lisan","Hamim","Hasib","Abrar"]
+h.sort()
+print(h)
+h.sort(reverse=True)
+print(h)
+hh = f + h
+print(hh)
+h.extend(f)
+print(h)
+print(h[0])
+print(h[-1])
+print(h[0:5])
+H = [['Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'],
+     ['Lisan', 'Hasib', 'Hamim', 'Abrar',],
+     "Bros"]
+print(H)
+i = ('Sintyas','Sintiyas',a!=b,a+b)
+print(i)
+I = list(i)
+I[0] = "Mahmudul"
+I.insert(1,"Hasan")
+I.append("Ayat")
+I.remove(a+b)
+I.pop(3)
+i = tuple(I)
+print(i)
+print(i.count(3))
+print(i.index("Ayat"))
+j = ('Lisan', 'Hasib', 'Hamim', 'Abrar')
+J = i + j
+print(J)
+print(j*2)
+(A,B,*C) = i
+print(A)
+print(B)
+print(*C)
+for ii in range(len(J)):
     print(ii)
-print("Mahmudul" in j)
+while x < len(J):
+    print(J[x])
+    x += 1
+k = range(1,11)
+print(k)
+l = {'Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'}
+print(l)
+for ll in l:
+    print(ll)
+print("Mahmudul" in l)
+lll = {'Sintyas', 'Sintiyas', True, 13}
+sss = [1,2,3,4,5,6,7,8,9,10]
+lll.add(False)
+print(lll)
+lll.pop()
+print(lll)
+lll.remove("Sintiyas")
+print(lll)
+lll.discard(10)
+lll.update(sss)
+print(lll)
+s = {False, True, 'Sintyas', 'Sintiyas', 13}
+lll.union(s)
+print(lll)
+lll.add(False)
+print(lll)
+sss = [1,2,3,4,5,6,7,8,9,10]
+for iii in sss:
+    print(iii+2)
+print([ssss * 2 for ssss in sss ])
 a,b=b,a
 print(a)
 print(b)
-a+=10
+a+=7
 print(a)
-k = (1,2,3,4,5)
-l = [ll + 2 for ll in k]
-print(l)
-for kk in k:
-    print(kk*2)
-o = [['Sintiyas', 'Mahmudul', 'Hasan', 'Ayat'],
-     [1, 2, 3, 4, 5,],
-    'Bros'
-]
-print(o)
-n = None
-print(n)
-inp = input("Enter your Name : ")
+b-=7
+print(b)
