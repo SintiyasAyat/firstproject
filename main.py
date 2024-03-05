@@ -203,12 +203,35 @@ print(set)
 print("Hasan" in set)
 for ss in set:
     print(ss)
+#set add
+set.add("Mahmudul")
+print(set)
+#set update
+sss = [1,2,3,4,5,6,7,8,9,10]
+set.update(sss)
+print(set)
+#set remove
+set.remove(10)
+#discard methods
+set.discard(11)
+print(set)
+#set ar pop() methods under vabe kaj kore
+set.pop()
+print(set)
+#set clear() methods diya sob remove kora jay
+set.clear()
+print(set)
+set1 ={False, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Hasan', 'Mahmudul'}
+#set ar loop
+for iii in set1:
+    print(iii)
+#The union() method returns a new set with all items from both sets:
 
+set11 = {"a", "b" , "c"}
+set21 = {1, 2, 3}
 
-
-
-
-
+set3 = set11.union(set21)
+print(set3)
 
 
 
