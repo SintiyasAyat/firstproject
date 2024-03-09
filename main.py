@@ -97,7 +97,7 @@ print(li)
 #list je kono jaygay kibabe bata add korbo
 li.insert(3,'job')
 print(li)
-#list ar je kono index re dehkte chai le
+#list ar je kono item re dehkte chai le
 print(li[0])
 #.romove diye je kono kisu list ar same jinis type kore oi tah romove
 li.remove('hasan')
@@ -226,16 +226,25 @@ set1 ={False, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Hasan', 'Mahmudul'}
 for iii in set1:
     print(iii)
 #The union() method returns a new set with all items from both sets:
-
 set11 = {"a", "b" , "c"}
 set21 = {1, 2, 3}
-
 set3 = set11.union(set21)
 print(set3)
+#Python Dictionaries
+dic = {
+    "Mahmudul" : {
+        "Full Name" :"Mahmudul Hasan Sintiyas Ayat",
+        "loction" : "bowbazar,jatr",
+        "Namder": 1939283443 ,
+        },"Lisan":{
+            "Full Name": "Lisanur Rahman",
+            "loction":"noyakhali",
+            "Namder": 12222223456
 
-
-
-
+        }
+    }
+print(dic)
+print(dic["Lisan"])
 
 
 
