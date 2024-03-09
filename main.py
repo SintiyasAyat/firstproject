@@ -245,7 +245,10 @@ dic = {
     }
 print(dic)
 print(dic["Lisan"])
-
+#Python Dictionaries accses
+print(dic.get("Mahmudul"))
+print(dic.keys())
+print(dic.values())
 
 
 
