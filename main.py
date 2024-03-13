@@ -239,9 +239,10 @@ dic = {
         },"Lisan":{
             "Full Name": "Lisanur Rahman",
             "loction":"noyakhali",
-            "Namder": 12222223456
+            "Namder": 12222223456,
 
-        }
+        },"year":{"name":"year1997",
+                  "loction":1212j},
     }
 print(dic)
 print(dic["Lisan"])
@@ -249,8 +250,11 @@ print(dic["Lisan"])
 print(dic.get("Mahmudul"))
 print(dic.keys())
 print(dic.values())
-
-
+# Change Dictionary Items
+dic['year']["loction"] = 12
+print(dic)
+dic.update({"Mahmudul" : {"namder" : 19392834433}})
+print(dic)
 
 
 
