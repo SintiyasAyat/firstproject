@@ -2,101 +2,111 @@ print("Hello World")
 a = 10
 b = 3
 c = "Sintiyas Ayat"
-print(f'My Name is {c} & My class roll is {a//b}')
+print(f"My name is {c}")
 d = (1,2,3,4,5)
-e = (1,2,3,4,5)
 dd = bytes(d)
 print(dd)
+e = (1,2,3,4,5)
 ee = bytearray(e)
 print(ee)
-ee[0]=6
+ee[0] = 6
 print(ee)
-f = ['Sintyas','Sintiyas',a!=b,a+b]
+f = ["what","Sintiyas",a!=b,a+b]
 print(f)
 f[0] = "Mahmudul"
 f.insert(1,"Hasan")
-f.append("Ayat")
-f.remove(a+b)
+f.append('Ayat')
 f.pop(3)
+f.remove(a+b)
 print(f)
-for g in range(len(f)):
-    print(g)
+F = ["lisan","Abrar","Hasib","Hamim"]
+F.sort()
+print(F)
+F.sort(reverse=True)
+print(F)
+ff = F + f
+print(ff)
+f.extend(F)
+print(f)
+print(f[0])
+print(f[-0])
+print(f[0:8])
+for FF in range(len(f)):
+    print(f)
 x = 0
 while x < len(f):
     print(f[x])
-    x +=1
-h = ["Lisan","Hamim","Hasib","Abrar"]
-h.sort()
+    x += 1
+Ff = ["bros",
+    ['Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'],
+   ["lisan","Abrar","Hasib","Hamim"],
+]
+print(Ff)
+h = ("what","Sintiyas",a!=b,a+b)
 print(h)
-h.sort(reverse=True)
+H = list(h)
+H[0] = "Mahmudul"
+H.insert(1,"Hasan")
+H.append('Ayat')
+H.pop(3)
+H.remove(a+b)
+h = tuple(H)
+print(type(h))
 print(h)
-hh = f + h
-print(hh)
-h.extend(f)
-print(h)
-print(h[0])
-print(h[-1])
-print(h[0:5])
-H = [['Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'],
-     ['Lisan', 'Hasib', 'Hamim', 'Abrar',],
-     "Bros"]
-print(H)
-i = ('Sintyas','Sintiyas',a!=b,a+b)
-print(i)
-I = list(i)
-I[0] = "Mahmudul"
-I.insert(1,"Hasan")
-I.append("Ayat")
-I.remove(a+b)
-I.pop(3)
-i = tuple(I)
-print(i)
-print(i.count(3))
-print(i.index("Ayat"))
-j = ('Lisan', 'Hasib', 'Hamim', 'Abrar')
-J = i + j
-print(J)
-print(j*2)
-(A,B,*C) = i
+for hh in h:
+    print(hh)
+print('Mahmudul' in h)
+(A,B,*C) = h
 print(A)
 print(B)
 print(*C)
-for ii in range(len(J)):
-    print(ii)
-while x < len(J):
-    print(J[x])
+print(h*2)
+for hhh in range(len(h)):
+    print(hhh)
+x = 0
+while x < len(h):
+    print(h[x])
     x += 1
-k = range(1,11)
-print(k)
-l = {'Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'}
-print(l)
-for ll in l:
-    print(ll)
-print("Mahmudul" in l)
-lll = {'Sintyas', 'Sintiyas', True, 13}
-sss = [1,2,3,4,5,6,7,8,9,10]
-lll.add(False)
-print(lll)
-lll.pop()
-print(lll)
-lll.remove("Sintiyas")
-print(lll)
-lll.discard(10)
-lll.update(sss)
-print(lll)
-s = {False, True, 'Sintyas', 'Sintiyas', 13}
-lll.union(s)
-print(lll)
-lll.add(False)
-print(lll)
-sss = [1,2,3,4,5,6,7,8,9,10]
-for iii in sss:
-    print(iii+2)
-print([ssss * 2 for ssss in sss ])
+HH = ("lisan","Abrar","Hasib","Hamim",12,1,2,1,2,3,6,34,3,)
+Hh = h + HH
+print(Hh)
+i = {'Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'}
+print(i)
+i.add("Hasan")
+i.remove('Ayat')
+print(i)
+i.update(HH)
+print(i)
+j = {'Mahmudul', 'Hasan', 'Sintiyas', 'Ayat'}
+I = {1,2,3,4,5,6,7,8,9,10}
+j.union(I)
+print(j)
+i.update(I)
+print(i)
+for ii in i:
+    print(ii)
+print(12 in i)
+k = { "Schoolinfo" : {
+    "Mahmudul":{"Name":"Mahmudul Hasan Sintiyas Ayat",
+                "loction":"Bowbazar,Jatrabari",
+                "Class": 11 ,
+                "roll" : 467 },
+    "lisan" : {"Name" : "Lisanur Rahman",
+                "loction":"noyakhali",
+                "Class": 11 ,
+                "roll" : 41},
+    "Abrar" : {"Name":"Abrar Jawad",
+                "loction":"Bowbazar,Jatrabari",
+                "Class": 11 ,
+                "roll" : 43},
+}}
+print(k["Schoolinfo"]["Mahmudul"])
+print(k.get("Schoolinfo"))
+print(k.values())
+print(k.keys())
 a,b=b,a
 print(a)
 print(b)
-a+=7
+a+=12
 print(a)
-b-=7
-print(b)
+ 09kikkkjkk
