@@ -250,13 +250,24 @@ print(dic["Lisan"])
 print(dic.get("Mahmudul"))
 print(dic.keys())
 print(dic.values())
-# Change Dictionary Items
-dic['year']["loction"] = 12
+# Change and add Dictionary Items
+dic['Lisan']["loction"] = "Noyakhali,banladesh"
 print(dic)
-dic.update({"Mahmudul" : {"namder" : 19392834433}})
+dic.update({"Mahmudul" : { "Full Name" :"Mahmudul Hasan Sintiyas Ayat",
+        "loction" : "bowbazar,jatr",
+        "Namder": 19392834433 ,}})
 print(dic)
-
-
+dic["Abrar"] = {"Name":"Abrar",
+                "location" : "komillah"}
+# Remove Dictionary Items
+dic["year"].pop("name", None)
+print(dic)
+#remove popitems means last dictionary delete kora
+dic.popitem()
+print(dic)
+del dic["year"]
+print(dic)
+#clear ues same
 
 
 
