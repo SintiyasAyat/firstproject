@@ -4,6 +4,12 @@ name = "Sintiyas Ayat"
 print(name)
 a = 12
 b = 8
+# local and gobal variables and local gobal keyword ues kore change kora jay
+def just():
+    Cc = 21
+    print(Cc+a)
+
+just()
 c = "20 is that all you got"
 print(a + b)
 #how to find bata type print(type(c)) kono bata kon dorone ta der korar jonno
@@ -268,10 +274,16 @@ print(dic)
 del dic["year"]
 print(dic)
 #clear ues same
-
-
-
-
+#dictionary loop
+for lo in dic.values():
+    print(lo)
+for loo in dic.keys():
+    print(loo)
+for looo in dic.items():
+    print(looo)
+# copy dictionarys
+newdictionary = dic.copy()
+print(newdictionary)
 
 
 
