@@ -5,11 +5,6 @@ print(name)
 a = 12
 b = 8
 # local and gobal variables and local gobal keyword ues kore change kora jay
-def just():
-    Cc = 21
-    print(Cc+a)
-
-just()
 c = "20 is that all you got"
 print(a + b)
 #how to find bata type print(type(c)) kono bata kon dorone ta der korar jonno
