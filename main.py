@@ -1,7 +1,11 @@
 print("Hello World")
 # variables
 name = "Sintiyas Ayat"
+print(name.lower())
 print(name)
+print(name.upper())
+print(name.replace('t','T'))
+print(name.split(","))
 a = 12
 b = 8
 # local and gobal variables and local gobal keyword ues kore change kora jay
@@ -87,8 +91,8 @@ B = 60
 A,B = B,A
 print(A)
 #uesr input neya
-x = input('please inter you name :')
-print(x)
+'''x = input('please inter you name :')
+print(x)'''
 #type casting diye ak type ar bata onno type ropantor korte pari
 strtype = '13'
 print(type(strtype))
@@ -284,6 +288,20 @@ for looo in dic.items():
 # copy dictionarys
 newdictionary = dic.copy()
 print(newdictionary)
+#if elif eles
+condition = 10
+condition2 = 10
+if condition == condition2:
+    print("Yes First condition Geater"),
+elif condition == condition2:
+    print("Yes is was Equal"),
+else:print("No condition not Geater")
+# loop break
+tumar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,]
+for nn in tumar:
+    if nn == 6:
+        break
+    print(nn)
 
 
 
