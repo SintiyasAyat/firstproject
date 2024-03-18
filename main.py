@@ -288,7 +288,7 @@ for looo in dic.items():
 # copy dictionarys
 newdictionary = dic.copy()
 print(newdictionary)
-#if elif eles
+#if elif eles statemate ono jaye true hole print korbe
 condition = 10
 condition2 = 10
 if condition == condition2:
