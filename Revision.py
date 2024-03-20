@@ -2,6 +2,10 @@ print("Hello World")
 a = 10
 b = 3
 c = 'Sintiyas Ayat'
+print(c.upper())
+print(c.lower())
+print(c.split())
+print(c.replace("S","s"))
 def new():
     c = "Mahmudul Hasan"
     print(c)
@@ -94,21 +98,69 @@ a+=17
 print(a)
 '''i = input('Enter Your Name : ')
 print(i)'''
-i = {
-    "Frindshipinfo": {
-        "Mamudul": {
-            "Full Name": "Mahmudul Hasan Sintiyas Ayat",
-            "Number": 1939283443
-        },
+i = {"Sintiyas",'Ayat',a>b,a+b}
+print(i)
+i.remove('Ayat')
+i.discard(10)
+iii = {"Mahmudul","Hasan","AYAT"}
+ii = i.union(iii)
+print(ii)
+i.pop()
+i.update(GG)
+i.add("Jotarbari")
+print(i)
+for iiii in i:
+    print(iiii)
+Friendshipinfo = {
+    "Mamudul": {
+        "Full Name": "Mahmudul Hasan Sintiyas Ayat",
+        "Number": 1939283443
+    },
     "Lisan": {
         "Full Name": "Lisanur Rahman",
         "Number": 599
     },
-        "Abrar" : {"Full Name" : "Abrar Jawad",
-                   "Numder" : 87 },
-        "Hamim":{"Full Name " : "Hamim hosain"}
-}}
-i["Frindshipinfo"]["Hamim"] = {
-    "Full Name": "Hamim hosain",
-    "Number": 552
+    "Abrar": {
+        "Full Name": "Abrar Jawad",
+        "Number": 87,
+        "just": "hello"
+    },
+    "Hamim": {
+        "Full Name": "Hamim Hosain"
+    },
+    "Year": {
+        "Full Name": "hello"
+    },
+    "Any": "hi"
 }
+Friendshipinfo["Hamim"] = {
+    "Full Name": "Hamim hosain",
+    "Number": 55}
+print(Friendshipinfo)
+print(Friendshipinfo["Hamim"])
+Friendshipinfo.pop("Year")
+Friendshipinfo.popitem()
+Friendshipinfo["Abrar"].pop("just")
+print(Friendshipinfo)
+for j in Friendshipinfo.keys():
+    print(j)
+for jj in Friendshipinfo.values():
+    print(jj)
+for jjj in Friendshipinfo.items():
+    print(jjj)
+k = (1,2,3,4,5)
+for kk in k:
+    print(kk * 2 )
+print([kkk + 1 for kkk in k])
+a = 10
+b = 33
+if a >= b or a == b :
+    print("a is Geat")
+elif a == b:
+    print("a and b is Equal")
+else:print("No b is Geater")
+if not a < b :
+    print("a is Geat")
+elif a == b :
+    print("wow is it Equal")
+else:print("No b is Geater")
