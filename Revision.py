@@ -86,7 +86,7 @@ h = range(1,11)
 print(h)
 for hh in h:
     if hh == 6:
-        break
+        continue
     print(hh)
 print(a>b)
 print(a==b)
