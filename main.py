@@ -302,8 +302,12 @@ for nn in tumar:
     if nn == 6:
         break
     print(nn)
-
-
+#Python Functions
+def ano(a,b):
+    ano = a+b
+    print(ano)
+ano(100,99)
+print(a)
 
 
 
